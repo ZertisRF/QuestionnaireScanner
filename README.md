@@ -125,3 +125,4 @@ python3 -m venv .venv
 .venv/bin/python -m py_compile Main.py questionnaire_scanner.py crop_by_markers.py mark_answer_cells.py
 .venv/bin/python Main.py --all --debug
 ```
+# QuestionnaireScanner
