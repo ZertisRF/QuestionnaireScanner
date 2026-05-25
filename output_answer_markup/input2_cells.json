@@ -1,0 +1,2148 @@
+{
+  "source_image": "output_marker_crop/input2_scanned.png",
+  "marked_image": "output_answer_markup/input2_cells_marked.png",
+  "layout_file": "questionnaire_layout.json",
+  "layout_name": "test_questionnaire_v1",
+  "coordinate_system": {
+    "origin": "top_left_marker_center",
+    "x_axis": "to_top_right_marker",
+    "y_axis": "to_bottom_left_marker",
+    "unit": "mm"
+  },
+  "marker_box_mm": {
+    "width": 170.0,
+    "height": 260.0
+  },
+  "image_size_px": {
+    "width": 1700,
+    "height": 2600
+  },
+  "px_per_mm": {
+    "x": 10.0,
+    "y": 10.0
+  },
+  "snap_to_grid": true,
+  "snap_mode": "uniform",
+  "snap_search_radius_px": 25,
+  "snap_tables": {
+    "1": {
+      "snap_mode": "uniform",
+      "expected_x": [
+        250,
+        350,
+        450,
+        550,
+        650,
+        750,
+        850,
+        950,
+        1050,
+        1150,
+        1250,
+        1350
+      ],
+      "expected_y": [
+        450,
+        550,
+        650
+      ],
+      "snapped_x": [
+        258,
+        356,
+        455,
+        553,
+        652,
+        750,
+        849,
+        947,
+        1046,
+        1144,
+        1243,
+        1341
+      ],
+      "snapped_y": [
+        450,
+        549,
+        650
+      ],
+      "x_snap": {
+        "source": "uniform_edges",
+        "first": 258,
+        "last": 1341,
+        "expected_span": 1100,
+        "snapped_span": 1083,
+        "span_ratio": 0.9845
+      },
+      "y_snap": {
+        "edge_snap": {
+          "source": "uniform_edges",
+          "first": 450,
+          "last": 650,
+          "expected_span": 200,
+          "snapped_span": 200,
+          "span_ratio": 1.0
+        },
+        "line_snap": {
+          "source": "individual_lines",
+          "step_ratios": [
+            0.99,
+            1.01
+          ]
+        },
+        "source": "individual_horizontal_lines"
+      }
+    },
+    "2": {
+      "snap_mode": "uniform",
+      "expected_x": [
+        250,
+        350,
+        450,
+        550,
+        650,
+        750,
+        850,
+        950,
+        1050,
+        1150,
+        1250,
+        1350
+      ],
+      "expected_y": [
+        700,
+        800,
+        900
+      ],
+      "snapped_x": [
+        259,
+        357,
+        456,
+        554,
+        652,
+        750,
+        849,
+        947,
+        1045,
+        1143,
+        1242,
+        1340
+      ],
+      "snapped_y": [
+        723,
+        823,
+        923
+      ],
+      "x_snap": {
+        "source": "uniform_edges",
+        "first": 259,
+        "last": 1340,
+        "expected_span": 1100,
+        "snapped_span": 1081,
+        "span_ratio": 0.9827
+      },
+      "y_snap": {
+        "edge_snap": {
+          "source": "uniform_edges",
+          "first": 723,
+          "last": 923,
+          "expected_span": 200,
+          "snapped_span": 200,
+          "span_ratio": 1.0
+        },
+        "line_snap": {
+          "source": "individual_lines",
+          "step_ratios": [
+            1.0,
+            1.0
+          ]
+        },
+        "source": "individual_horizontal_lines"
+      }
+    },
+    "3": {
+      "snap_mode": "uniform",
+      "expected_x": [
+        250,
+        350,
+        450,
+        550,
+        650,
+        750,
+        850,
+        950,
+        1050,
+        1150,
+        1250,
+        1350
+      ],
+      "expected_y": [
+        950,
+        1050,
+        1150
+      ],
+      "snapped_x": [
+        259,
+        357,
+        456,
+        554,
+        652,
+        750,
+        849,
+        947,
+        1045,
+        1143,
+        1242,
+        1340
+      ],
+      "snapped_y": [
+        972,
+        1073,
+        1173
+      ],
+      "x_snap": {
+        "source": "uniform_edges",
+        "first": 259,
+        "last": 1340,
+        "expected_span": 1100,
+        "snapped_span": 1081,
+        "span_ratio": 0.9827
+      },
+      "y_snap": {
+        "edge_snap": {
+          "source": "uniform_edges",
+          "first": 972,
+          "last": 1173,
+          "expected_span": 200,
+          "snapped_span": 201,
+          "span_ratio": 1.005
+        },
+        "line_snap": {
+          "source": "individual_lines",
+          "step_ratios": [
+            1.01,
+            1.0
+          ]
+        },
+        "source": "individual_horizontal_lines"
+      }
+    },
+    "4": {
+      "snap_mode": "uniform",
+      "expected_x": [
+        250,
+        350,
+        450,
+        550,
+        650,
+        750,
+        850,
+        950,
+        1050,
+        1150,
+        1250,
+        1350
+      ],
+      "expected_y": [
+        1200,
+        1300,
+        1400
+      ],
+      "snapped_x": [
+        259,
+        357,
+        455,
+        554,
+        652,
+        750,
+        848,
+        946,
+        1044,
+        1143,
+        1241,
+        1339
+      ],
+      "snapped_y": [
+        1217,
+        1323,
+        1420
+      ],
+      "x_snap": {
+        "source": "uniform_edges",
+        "first": 259,
+        "last": 1339,
+        "expected_span": 1100,
+        "snapped_span": 1080,
+        "span_ratio": 0.9818
+      },
+      "y_snap": {
+        "edge_snap": {
+          "source": "uniform_edges",
+          "first": 1217,
+          "last": 1420,
+          "expected_span": 200,
+          "snapped_span": 203,
+          "span_ratio": 1.015
+        },
+        "line_snap": {
+          "source": "individual_lines",
+          "step_ratios": [
+            1.06,
+            0.97
+          ]
+        },
+        "source": "individual_horizontal_lines"
+      }
+    }
+  },
+  "cells_count": 88,
+  "cells": [
+    {
+      "id": "table_01_printed_col_01",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 258,
+        "y": 450,
+        "width": 98,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_02",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 356,
+        "y": 450,
+        "width": 99,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_03",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 455,
+        "y": 450,
+        "width": 98,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_04",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 553,
+        "y": 450,
+        "width": 99,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_05",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 450,
+        "width": 98,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_06",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 450,
+        "width": 99,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_07",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 849,
+        "y": 450,
+        "width": 98,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_08",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 947,
+        "y": 450,
+        "width": 99,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_09",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1046,
+        "y": 450,
+        "width": 98,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_10",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1144,
+        "y": 450,
+        "width": 99,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_printed_col_11",
+      "table_index": 1,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 45.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1243,
+        "y": 450,
+        "width": 98,
+        "height": 99
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_01",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 258,
+        "y": 549,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_02",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 356,
+        "y": 549,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_03",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 455,
+        "y": 549,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_04",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 553,
+        "y": 549,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_05",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 549,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_06",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 549,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_07",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 849,
+        "y": 549,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_08",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 947,
+        "y": 549,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_09",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1046,
+        "y": 549,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_10",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1144,
+        "y": 549,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_01_answer_col_11",
+      "table_index": 1,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 55.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1243,
+        "y": 549,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_01",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 259,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_02",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 357,
+        "y": 723,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_03",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 456,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_04",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 554,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_05",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_06",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 723,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_07",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 849,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_08",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 947,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_09",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1045,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_10",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1143,
+        "y": 723,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_printed_col_11",
+      "table_index": 2,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 70.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1242,
+        "y": 723,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_01",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 259,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_02",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 357,
+        "y": 823,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_03",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 456,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_04",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 554,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_05",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_06",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 823,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_07",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 849,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_08",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 947,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_09",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1045,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_10",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1143,
+        "y": 823,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_02_answer_col_11",
+      "table_index": 2,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 80.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1242,
+        "y": 823,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_01",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 259,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_02",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 357,
+        "y": 972,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_03",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 456,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_04",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 554,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_05",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_06",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 972,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_07",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 849,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_08",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 947,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_09",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1045,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_10",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1143,
+        "y": 972,
+        "width": 99,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_printed_col_11",
+      "table_index": 3,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 95.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1242,
+        "y": 972,
+        "width": 98,
+        "height": 101
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_01",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 259,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_02",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 357,
+        "y": 1073,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_03",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 456,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_04",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 554,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_05",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_06",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 1073,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_07",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 849,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_08",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 947,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_09",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1045,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_10",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1143,
+        "y": 1073,
+        "width": 99,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_03_answer_col_11",
+      "table_index": 3,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 105.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1242,
+        "y": 1073,
+        "width": 98,
+        "height": 100
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_01",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 259,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_02",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 357,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_03",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 455,
+        "y": 1217,
+        "width": 99,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_04",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 554,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_05",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_06",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_07",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 848,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_08",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 946,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_09",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1044,
+        "y": 1217,
+        "width": 99,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_10",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1143,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_printed_col_11",
+      "table_index": 4,
+      "row_index": 1,
+      "row_type": "printed",
+      "row_label": "Напечатанный символ",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 120.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1241,
+        "y": 1217,
+        "width": 98,
+        "height": 106
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_01",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 1,
+      "rect_mm": {
+        "x": 25.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 259,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_02",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 2,
+      "rect_mm": {
+        "x": 35.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 357,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_03",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 3,
+      "rect_mm": {
+        "x": 45.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 455,
+        "y": 1323,
+        "width": 99,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_04",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 4,
+      "rect_mm": {
+        "x": 55.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 554,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_05",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 5,
+      "rect_mm": {
+        "x": 65.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 652,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_06",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 6,
+      "rect_mm": {
+        "x": 75.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 750,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_07",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 7,
+      "rect_mm": {
+        "x": 85.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 848,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_08",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 8,
+      "rect_mm": {
+        "x": 95.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 946,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_09",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 9,
+      "rect_mm": {
+        "x": 105.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1044,
+        "y": 1323,
+        "width": 99,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_10",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 10,
+      "rect_mm": {
+        "x": 115.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1143,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    },
+    {
+      "id": "table_04_answer_col_11",
+      "table_index": 4,
+      "row_index": 2,
+      "row_type": "answer",
+      "row_label": "Ответ пользователя",
+      "column_index": 11,
+      "rect_mm": {
+        "x": 125.0,
+        "y": 130.0,
+        "width": 10.0,
+        "height": 10.0
+      },
+      "rect_px": {
+        "x": 1241,
+        "y": 1323,
+        "width": 98,
+        "height": 97
+      },
+      "rect_px_source": "snapped_grid_uniform"
+    }
+  ]
+}

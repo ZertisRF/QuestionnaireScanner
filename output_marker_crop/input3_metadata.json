@@ -1,0 +1,252 @@
+{
+  "source": "input/input3.jpg",
+  "output": "output_marker_crop/input3_scanned.png",
+  "debug": "output_marker_crop/input3_debug.png",
+  "crop_source": "marker-box",
+  "output_size": {
+    "width": 1700,
+    "height": 2600
+  },
+  "marker_points": [
+    [
+      790.9099731445312,
+      1060.0
+    ],
+    [
+      2088.179931640625,
+      531.8200073242188
+    ],
+    [
+      2282.72998046875,
+      3529.090087890625
+    ],
+    [
+      708.1799926757812,
+      3315.449951171875
+    ]
+  ],
+  "document_points": [
+    [
+      790.9099731445312,
+      1060.0
+    ],
+    [
+      2088.179931640625,
+      531.8200073242188
+    ],
+    [
+      2282.72998046875,
+      3529.090087890625
+    ],
+    [
+      708.1799926757812,
+      3315.449951171875
+    ]
+  ],
+  "marker_candidates": [
+    {
+      "center": [
+        2088.18,
+        531.82
+      ],
+      "radius": 20.93,
+      "area": 998.35,
+      "paper_score": 0.9176,
+      "background_gray": 182.82,
+      "background_saturation": 6.15,
+      "score": 3.2369
+    },
+    {
+      "center": [
+        2282.73,
+        3529.09
+      ],
+      "radius": 28.24,
+      "area": 1849.59,
+      "paper_score": 0.8726,
+      "background_gray": 172.99,
+      "background_saturation": 8.95,
+      "score": 3.2283
+    },
+    {
+      "center": [
+        708.18,
+        3315.45
+      ],
+      "radius": 17.49,
+      "area": 499.17,
+      "paper_score": 0.9781,
+      "background_gray": 203.63,
+      "background_saturation": 7.51,
+      "score": 2.8767
+    },
+    {
+      "center": [
+        790.91,
+        1060.0
+      ],
+      "radius": 11.5,
+      "area": 185.12,
+      "paper_score": 0.972,
+      "background_gray": 204.89,
+      "background_saturation": 9.61,
+      "score": 2.6897
+    },
+    {
+      "center": [
+        2344.55,
+        815.45
+      ],
+      "radius": 15.69,
+      "area": 365.29,
+      "paper_score": 0.4147,
+      "background_gray": 123.7,
+      "background_saturation": 63.69,
+      "score": 1.8816
+    },
+    {
+      "center": [
+        2859.09,
+        2079.09
+      ],
+      "radius": 18.41,
+      "area": 366.94,
+      "paper_score": 0.4225,
+      "background_gray": 117.91,
+      "background_saturation": 45.66,
+      "score": 1.7483
+    },
+    {
+      "center": [
+        2891.29,
+        2066.19
+      ],
+      "radius": 9.91,
+      "area": 145.45,
+      "paper_score": 0.3309,
+      "background_gray": 110.74,
+      "background_saturation": 54.48,
+      "score": 1.7395
+    },
+    {
+      "center": [
+        2362.73,
+        1070.91
+      ],
+      "radius": 21.99,
+      "area": 507.44,
+      "paper_score": 0.4643,
+      "background_gray": 128.7,
+      "background_saturation": 54.76,
+      "score": 1.6634
+    },
+    {
+      "center": [
+        2359.64,
+        1023.93
+      ],
+      "radius": 18.6,
+      "area": 436.36,
+      "paper_score": 0.4489,
+      "background_gray": 126.9,
+      "background_saturation": 57.19,
+      "score": 1.6202
+    },
+    {
+      "center": [
+        2857.27,
+        2773.64
+      ],
+      "radius": 17.3,
+      "area": 302.48,
+      "paper_score": 0.3457,
+      "background_gray": 108.11,
+      "background_saturation": 49.31,
+      "score": 1.561
+    },
+    {
+      "center": [
+        2497.42,
+        3857.97
+      ],
+      "radius": 15.69,
+      "area": 292.56,
+      "paper_score": 0.3921,
+      "background_gray": 121.23,
+      "background_saturation": 64.36,
+      "score": 1.553
+    },
+    {
+      "center": [
+        2360.91,
+        1122.73
+      ],
+      "radius": 10.04,
+      "area": 82.64,
+      "paper_score": 0.4866,
+      "background_gray": 128.6,
+      "background_saturation": 47.01,
+      "score": 1.5525
+    },
+    {
+      "center": [
+        2434.55,
+        3844.55
+      ],
+      "radius": 10.95,
+      "area": 107.44,
+      "paper_score": 0.3798,
+      "background_gray": 120.23,
+      "background_saturation": 65.7,
+      "score": 1.5009
+    },
+    {
+      "center": [
+        2789.09,
+        2946.36
+      ],
+      "radius": 9.14,
+      "area": 74.38,
+      "paper_score": 0.2933,
+      "background_gray": 106.57,
+      "background_saturation": 57.05,
+      "score": 1.492
+    },
+    {
+      "center": [
+        1327.27,
+        3636.36
+      ],
+      "radius": 18.54,
+      "area": 285.95,
+      "paper_score": 0.448,
+      "background_gray": 133.23,
+      "background_saturation": 63.28,
+      "score": 1.4345
+    },
+    {
+      "center": [
+        2927.27,
+        2528.18
+      ],
+      "radius": 16.59,
+      "area": 231.4,
+      "paper_score": 0.2949,
+      "background_gray": 104.71,
+      "background_saturation": 52.79,
+      "score": 1.4152
+    },
+    {
+      "center": [
+        2729.09,
+        3679.09
+      ],
+      "radius": 15.24,
+      "area": 183.47,
+      "paper_score": 0.3172,
+      "background_gray": 116.02,
+      "background_saturation": 80.51,
+      "score": 1.343
+    }
+  ]
+}

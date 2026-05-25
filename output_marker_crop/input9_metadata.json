@@ -1,0 +1,324 @@
+{
+  "source": "input/input9.jpg",
+  "output": "output_marker_crop/input9_scanned.png",
+  "debug": "output_marker_crop/input9_debug.png",
+  "crop_source": "marker-box",
+  "output_size": {
+    "width": 1700,
+    "height": 2600
+  },
+  "marker_points": [
+    [
+      23.229999542236328,
+      23.229999542236328
+    ],
+    [
+      828.8499755859375,
+      23.149999618530273
+    ],
+    [
+      828.8300170898438,
+      1255.8299560546875
+    ],
+    [
+      23.229999542236328,
+      1255.77001953125
+    ]
+  ],
+  "document_points": [
+    [
+      23.229999542236328,
+      23.229999542236328
+    ],
+    [
+      828.8499755859375,
+      23.149999618530273
+    ],
+    [
+      828.8300170898438,
+      1255.8299560546875
+    ],
+    [
+      23.229999542236328,
+      1255.77001953125
+    ]
+  ],
+  "marker_candidates": [
+    {
+      "center": [
+        23.23,
+        1255.77
+      ],
+      "radius": 9.05,
+      "area": 232.5,
+      "paper_score": 1.0,
+      "background_gray": 254.98,
+      "background_saturation": 0.0,
+      "score": 3.977
+    },
+    {
+      "center": [
+        828.83,
+        1255.83
+      ],
+      "radius": 9.02,
+      "area": 230.5,
+      "paper_score": 0.9917,
+      "background_gray": 253.06,
+      "background_saturation": 2.24,
+      "score": 3.9129
+    },
+    {
+      "center": [
+        23.23,
+        23.23
+      ],
+      "radius": 9.05,
+      "area": 232.5,
+      "paper_score": 0.9841,
+      "background_gray": 250.93,
+      "background_saturation": 4.27,
+      "score": 3.8771
+    },
+    {
+      "center": [
+        828.85,
+        23.15
+      ],
+      "radius": 9.01,
+      "area": 229.5,
+      "paper_score": 0.9841,
+      "background_gray": 251.01,
+      "background_saturation": 4.25,
+      "score": 3.8605
+    },
+    {
+      "center": [
+        354.0,
+        499.5
+      ],
+      "radius": 4.03,
+      "area": 26.5,
+      "paper_score": 0.8977,
+      "background_gray": 211.4,
+      "background_saturation": 23.63,
+      "score": 3.2195
+    },
+    {
+      "center": [
+        638.5,
+        359.0
+      ],
+      "radius": 5.03,
+      "area": 34.5,
+      "paper_score": 0.9231,
+      "background_gray": 215.32,
+      "background_saturation": 15.65,
+      "score": 2.9024
+    },
+    {
+      "center": [
+        220.0,
+        500.0
+      ],
+      "radius": 5.1,
+      "area": 28.5,
+      "paper_score": 0.9239,
+      "background_gray": 220.14,
+      "background_saturation": 15.99,
+      "score": 2.8755
+    },
+    {
+      "center": [
+        599.0,
+        243.5
+      ],
+      "radius": 5.41,
+      "area": 34.0,
+      "paper_score": 0.9305,
+      "background_gray": 221.51,
+      "background_saturation": 14.83,
+      "score": 2.8438
+    },
+    {
+      "center": [
+        402.0,
+        263.5
+      ],
+      "radius": 5.03,
+      "area": 20.0,
+      "paper_score": 0.9267,
+      "background_gray": 216.72,
+      "background_saturation": 14.92,
+      "score": 2.8058
+    },
+    {
+      "center": [
+        392.5,
+        363.0
+      ],
+      "radius": 5.22,
+      "area": 27.5,
+      "paper_score": 0.9256,
+      "background_gray": 219.7,
+      "background_saturation": 14.87,
+      "score": 2.8026
+    },
+    {
+      "center": [
+        501.0,
+        74.0
+      ],
+      "radius": 4.47,
+      "area": 22.0,
+      "paper_score": 0.9186,
+      "background_gray": 218.15,
+      "background_saturation": 17.99,
+      "score": 2.8015
+    },
+    {
+      "center": [
+        591.0,
+        602.5
+      ],
+      "radius": 8.73,
+      "area": 180.0,
+      "paper_score": 0.9597,
+      "background_gray": 226.32,
+      "background_saturation": 7.29,
+      "score": 2.7976
+    },
+    {
+      "center": [
+        446.5,
+        614.0
+      ],
+      "radius": 9.01,
+      "area": 186.5,
+      "paper_score": 0.9642,
+      "background_gray": 229.32,
+      "background_saturation": 6.63,
+      "score": 2.7933
+    },
+    {
+      "center": [
+        178.0,
+        74.0
+      ],
+      "radius": 4.47,
+      "area": 22.0,
+      "paper_score": 0.9089,
+      "background_gray": 213.18,
+      "background_saturation": 20.1,
+      "score": 2.7906
+    },
+    {
+      "center": [
+        539.0,
+        616.0
+      ],
+      "radius": 8.25,
+      "area": 156.0,
+      "paper_score": 0.9662,
+      "background_gray": 229.33,
+      "background_saturation": 5.1,
+      "score": 2.7729
+    },
+    {
+      "center": [
+        536.5,
+        500.5
+      ],
+      "radius": 4.74,
+      "area": 18.5,
+      "paper_score": 0.9375,
+      "background_gray": 222.06,
+      "background_saturation": 11.87,
+      "score": 2.7488
+    },
+    {
+      "center": [
+        201.0,
+        496.5
+      ],
+      "radius": 5.85,
+      "area": 32.0,
+      "paper_score": 0.934,
+      "background_gray": 220.41,
+      "background_saturation": 13.75,
+      "score": 2.676
+    },
+    {
+      "center": [
+        499.39,
+        93.5
+      ],
+      "radius": 4.64,
+      "area": 19.5,
+      "paper_score": 0.9135,
+      "background_gray": 210.52,
+      "background_saturation": 16.89,
+      "score": 2.6483
+    },
+    {
+      "center": [
+        176.39,
+        93.5
+      ],
+      "radius": 4.64,
+      "area": 19.5,
+      "paper_score": 0.9187,
+      "background_gray": 212.77,
+      "background_saturation": 15.66,
+      "score": 2.6352
+    },
+    {
+      "center": [
+        164.5,
+        608.5
+      ],
+      "radius": 14.58,
+      "area": 380.5,
+      "paper_score": 0.988,
+      "background_gray": 244.02,
+      "background_saturation": 1.84,
+      "score": 2.569
+    },
+    {
+      "center": [
+        545.0,
+        600.5
+      ],
+      "radius": 7.16,
+      "area": 90.5,
+      "paper_score": 0.9626,
+      "background_gray": 230.13,
+      "background_saturation": 6.71,
+      "score": 2.503
+    },
+    {
+      "center": [
+        638.0,
+        607.5
+      ],
+      "radius": 5.85,
+      "area": 65.5,
+      "paper_score": 0.9001,
+      "background_gray": 202.7,
+      "background_saturation": 21.38,
+      "score": 2.4906
+    },
+    {
+      "center": [
+        647.38,
+        602.35
+      ],
+      "radius": 9.65,
+      "area": 161.5,
+      "paper_score": 0.9683,
+      "background_gray": 234.75,
+      "background_saturation": 5.89,
+      "score": 2.3759
+    }
+  ]
+}
